@@ -1,0 +1,71 @@
+/* Add transitions to the MapContainer */
+.leaflet-container {
+    transition: height 0.3s ease-in-out, width 0.3s ease-in-out;
+  }
+  
+  /* Add animation to the markers */
+  .leaflet-marker-icon {
+    animation: marker-fade-in 0.5s ease-in-out both;
+  }
+  
+  /* styles.css */
+.app {
+    background-color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem;
+    background-color: #fff;
+  }
+  
+  .enter-dates-button {
+    margin-right: 1rem;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filters-button {
+    margin-right: 0.5rem;
+  }
+  
+  .attractions-button {
+    margin-right: 1rem;
+  }
+  
+  .content {
+    display: flex;
+    height: calc(100vh - 60px);
+  }
+  
+  .left-pane {
+    width: 30%;
+    padding: 1rem;
+  }
+  
+  .right-pane {
+    width: 70%;
+  }
+  
+
+  /* Define the marker fade-in animation */
+  @keyframes marker-fade-in {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
