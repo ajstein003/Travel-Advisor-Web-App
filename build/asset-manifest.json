@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e6ec35e.css",
+    "main.js": "/static/js/main.888c36ef.js",
+    "static/media/attraction-icon.png": "/static/media/attraction-icon.b0e57fc9f11392e5b12b.png",
+    "static/media/restaurant-icon.png": "/static/media/restaurant-icon.a46a763739ec50a8e31a.png",
+    "static/media/hotel-icon.png": "/static/media/hotel-icon.487ebbf07962e8187b1b.png",
+    "index.html": "/index.html",
+    "main.4e6ec35e.css.map": "/static/css/main.4e6ec35e.css.map",
+    "main.888c36ef.js.map": "/static/js/main.888c36ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6ec35e.css",
+    "static/js/main.888c36ef.js"
+  ]
+}
